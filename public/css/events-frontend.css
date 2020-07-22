@@ -1,0 +1,6 @@
+.active {
+  border-bottom: 5px solid #f68d2e;
+  color: #f68d2e;
+  font-weight: 700;
+}
+.e-nav{ cursor:pointer;}

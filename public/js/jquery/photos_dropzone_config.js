@@ -1,0 +1,40 @@
+var total_photos_counter = 0;
+Dropzone.options.myDropzone = {
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="token"]').attr('content')
+    },
+    uploadMultiple: true,
+    parallelUploads: 2,
+    maxFilesize: 16,
+    previewTemplate: document.querySelector('#preview').innerHTML,
+    addRemoveLinks: true,
+    dictRemoveFile: 'Remove file',
+    dictFileTooBig: 'Image is larger than 16MB',
+    timeout: 10000,
+ 
+    init: function () {
+        this.on("removedfile", function (file) {
+            $.post({
+                url: '/events/photos/images-delete',
+                data: {id: file.name, _token: $('[name="_token"]').val()},
+                dataType: 'json',
+                success: function (data) {
+                    total_photos_counter--;
+                    console.log("here11");
+                    $("#counter").text("# " + total_photos_counter);
+                }
+            });
+        });
+        this.on("queuecomplete", function (file) {
+            total_photos_counter++;
+            location.reload();
+            $("#counter").text("# " + total_photos_counter);
+        });
+        
+    },
+    success: function (file, done) {
+        total_photos_counter++;
+        //location.reload();
+        //$("#counter").text("# " + total_photos_counter);
+    }
+};

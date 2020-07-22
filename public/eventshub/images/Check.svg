@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Account-Info" transform="translate(-896.000000, -1120.000000)">
+            <g id="Group-6" transform="translate(896.000000, 1120.000000)">
+                <g id="Group-3">
+                    <path d="M15,1 C7.2680135,1 1,7.2680135 1,15 C1,22.7319865 7.2680135,29 15,29 C22.7319865,29 29,22.7319865 29,15 C29,7.2680135 22.7319865,1 15,1 Z" id="Rectangle" stroke="#FFFFFF" stroke-width="2"></path>
+                    <path d="M20.8772626,9.37480332 L12.9948695,17.7771413 L10.1227374,14.7155553 C9.63125723,14.2095561 8.8500249,14.2167926 8.36686815,14.7318198 C7.8837114,15.2468469 7.8769227,16.0796115 8.35161012,16.6035111 L12.1093059,20.609075 C12.5984324,21.1303083 13.3913066,21.1303083 13.8804331,20.609075 L22.6483899,11.2627591 C23.1230773,10.7388596 23.1162886,9.90609494 22.6331318,9.39106781 C22.1499751,8.87604068 21.3687428,8.86880418 20.8772626,9.37480332 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

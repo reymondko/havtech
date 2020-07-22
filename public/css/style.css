@@ -1,0 +1,145 @@
+body{
+    font-family: titling-gothic-fb, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+/*dashboard*/
+.logo{
+    width: 100%;
+    min-width: 200px;
+}
+.navbar-header {
+    background: #FFF;
+    width: 250px;
+}
+
+.navbar-default.sidebar {
+    
+}
+.navbar-default{
+    background:#f69031;
+}
+
+.nav-wrapper,.sidebar-nav{
+    background:#07549c;
+}
+.sidebar-nav .active,.sidebar ul li.active > a{
+    background: #064074;
+}
+.sidebar-nav a,.navbar-top-links li a{
+    color: #ffffff;
+}
+.event-heading{
+    color:#FFF !important;
+}
+.sidebar-nav a:hover,
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #3399ff;
+}
+.ui-timepicker-container{
+    z-index: 999 !important;
+}
+
+.navbar-top-links a:hover,.navbar-top-links li a:hover,.navbar-top-links li a.active{
+    background-color: #ac7122
+}
+
+.btn-blue { 
+    background-color: #07549c; 
+    color:#ffffff;
+    border-color:#064074
+}
+.btn-blue:hover{
+    background: #3399ff; 
+    color:#ffffff;
+    border-color:#3399ff;
+}
+.btn-orange { 
+    background-color: #f69031; 
+    color:#ffffff;
+    border-color:#f69031
+}
+.btn-orange:hover{
+    background: #ac7122; 
+    color:#ffffff;
+    border-color:#ac7122;
+}
+.update-btn-top{
+    margin-top:-60px;
+}
+
+input.daterangepicker {
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin-top:0px;
+}
+
+.attendee-list-importer{
+    margin-top:-26px;
+}
+
+.updatemapnames {
+    margin-top: -8px;
+}
+
+.pass_error{
+    font-size: 12px;
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+.input-group-btn{
+    vertical-align: top;
+}
+/*validations*/
+input.error {
+    border: 1px dotted red;
+}
+.error{
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*Photos page*/
+h2.event_photos_title{
+    font-family: titling-gothic-fb, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    color: #585858;
+    Border-bottom: 1px solid #585858;
+}
+.select-p{
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+#PendingPhotos_ctnr{
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    max-height: 600px;
+    overflow: auto;
+}
+#ApprovedPhotos_ctnr{
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    max-height: 600px;
+    overflow: auto;
+}
+
+.alert-success2{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}

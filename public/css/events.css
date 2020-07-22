@@ -1,0 +1,117 @@
+.event_content_cb{
+    display: inline-block;
+    margin: -20px 0 0 5px;
+}
+/* Make circles that indicate the steps of the form: */
+.step,.step_b {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active,.step_b.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish,.step_b.finish {
+    background-color: #4CAF50;
+} 
+/* remove border between controls */
+.add-on .input-group-btn > .btn {
+    border-left-width: 0;
+    left:-2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+    -webkit-box-shadow: none; 
+            box-shadow: none;
+    border-color:#cccccc; 
+}
+.note-toolbar {
+    position: relative;
+    z-index: 1 !important;
+}
+
+#add_moreSchedule,#add_more,#add_moreDining,#deleteSchedule,button.deleteEventItem,button.clone_btn {
+    margin: -6px;
+    padding: 5px;
+    border: 0;
+}
+button#deleteSchedule,button.deleteEventItem {
+    color: red;
+    font-size: 12px;
+    margin-top: 0px;
+}
+button.deleteBanner{
+    color: red;
+    font-size: 12px;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 5px;
+    border: 0;
+}
+
+.clone_btn{
+    cursor: pointer;
+}
+.page-heading {
+    margin: 20px 0;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+}
+#my-dropzone .message {
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    color: #0087F7;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+ 
+.dropzone {
+    border: 2px dashed #0087F7;
+    background: white;
+    border-radius: 5px;
+    min-height: 300px;
+    padding: 90px 0;
+    vertical-align: baseline;
+}
+
+.map-preview,.photo-preview{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 16px;
+    min-height: 100px;
+}
+
+.map-image.photo-image {
+
+    border-radius: 20px;
+    overflow: hidden;
+    width: 120px;
+    height: 120p
+}
+
+/*notifcations part*/
+.notif-btns{
+    margin:0px 5px;
+}
+.recipientlist{
+    overflow-y: auto;
+    height: 120px;
+}
+.event-heading{
+    cursor: pointer;
+}

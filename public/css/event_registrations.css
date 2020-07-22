@@ -1,0 +1,32 @@
+ table{
+    margin-top: 20px;
+    font-size: 18px;
+    color: gray;
+ }
+ .paginate_button.current{
+    background: white !important;
+ }
+ 
+ .input-n{
+    font-size: 21px;
+    padding: 10px;
+    height: 52px;
+ }
+
+ .dt-button.buttons-csv{
+    background: white !important;
+    font-size: 16px;
+    padding: 10px;
+    width: 125px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+ }
+
+ #event_registrations_length{
+     text-align: center;
+ }
+
+ #event_registrations_wrapper{
+    padding-bottom: 50px;
+ }
